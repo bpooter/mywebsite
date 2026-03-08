@@ -1,8 +1,8 @@
 body {
     margin: 0;
     background: #333333;
-    font-family: silom;
-    font-weight: 400;
+    font-family: "Smooch Sans", sans-serif;
+    font-weight: 300;
     color: #F0F0F0;
 }
 
@@ -50,6 +50,7 @@ nav ul li a {
     color: #F0F0F0;
     text-decoration: none;
     text-transform: uppercase;
+    font-weight: 300;
     font-size: 14px;
 }
 
@@ -71,6 +72,11 @@ nav a:before {
 
 nav a:hover::before {
     width: 100%;
+}
+
+.h1 {
+    display: block;
+    margin: 20px;
 }
 
 
